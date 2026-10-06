@@ -1,0 +1,29 @@
+{
+ "gaps": {
+  "15": {
+   "sessions": 1809161,
+   "events_per_session_mean": 1.523,
+   "events_per_session_median": 1.0,
+   "single_event_session_pct": 79.08,
+   "sessions_per_visitor_mean": 1.285,
+   "single_session_visitor_pct": 85.89
+  },
+  "30": {
+   "sessions": 1761675,
+   "events_per_session_mean": 1.564,
+   "events_per_session_median": 1.0,
+   "single_event_session_pct": 78.27,
+   "sessions_per_visitor_mean": 1.252,
+   "single_session_visitor_pct": 87.1
+  },
+  "60": {
+   "sessions": 1726714,
+   "events_per_session_mean": 1.596,
+   "events_per_session_median": 1.0,
+   "single_event_session_pct": 77.64,
+   "sessions_per_visitor_mean": 1.227,
+   "single_session_visitor_pct": 87.99
+  }
+ },
+ "note": "gap>0 within-visitor; first event per visitor excluded"
+}
