@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data: raw CSVs are ~1 GB total and exceed GitHub limits — keep locally,
+# document provenance in data/README.md. Processed outputs are regenerable.
+data/raw/*.csv
+data/processed/*
+!data/processed/.gitkeep
+
+# Reports: curated EDA figures are committed (small PNGs, referenced by README);
+# ad-hoc exports stay local.
+reports/figures/ad-hoc/*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+
