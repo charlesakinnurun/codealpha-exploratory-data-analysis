@@ -1,0 +1,30 @@
+{
+ "global_tx_rate_pct": 0.8148,
+ "n_roots": 23,
+ "spearman_items": {
+  "views": {
+   "views": 1.0,
+   "carts": 0.415,
+   "txs": 0.326,
+   "visitors": 0.976
+  },
+  "carts": {
+   "views": 0.415,
+   "carts": 1.0,
+   "txs": 0.681,
+   "visitors": 0.415
+  },
+  "txs": {
+   "views": 0.326,
+   "carts": 0.681,
+   "txs": 1.0,
+   "visitors": 0.321
+  },
+  "visitors": {
+   "views": 0.976,
+   "carts": 0.415,
+   "txs": 0.321,
+   "visitors": 1.0
+  }
+ }
+}
