@@ -1,0 +1,38 @@
+{
+ "sample": 200000,
+ "asof_coverage_pct": 80.81,
+ "naive_coverage_pct": 90.76,
+ "naive_vs_asof_disagreement_pct": 25.51,
+ "asof_state_mix_pct": {
+  "1": 61.54,
+  "0": 38.46
+ },
+ "event_mix_pct_by_asof_state": {
+  "addtocart": {
+   "0": 0.436,
+   "1": 4.134
+  },
+  "transaction": {
+   "0": 0.151,
+   "1": 1.36
+  },
+  "view": {
+   "0": 99.413,
+   "1": 94.506
+  }
+ },
+ "event_counts_by_asof_state": {
+  "addtocart": {
+   "0": 271,
+   "1": 4112
+  },
+  "transaction": {
+   "0": 94,
+   "1": 1353
+  },
+  "view": {
+   "0": 61787,
+   "1": 94003
+  }
+ }
+}
