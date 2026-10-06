@@ -1,0 +1,112 @@
+{
+ "events_shape": [
+  2756101,
+  5
+ ],
+ "events_dtypes": {
+  "timestamp": "int64",
+  "visitorid": "int64",
+  "event": "str",
+  "itemid": "int64",
+  "transactionid": "float64"
+ },
+ "events_memory_MB": 121.77,
+ "events_missing": {
+  "timestamp": 0,
+  "visitorid": 0,
+  "event": 0,
+  "itemid": 0,
+  "transactionid": 2733644
+ },
+ "events_missing_pct": {
+  "timestamp": 0.0,
+  "visitorid": 0.0,
+  "event": 0.0,
+  "itemid": 0.0,
+  "transactionid": 99.1852
+ },
+ "events_nunique": {
+  "timestamp": 2750455,
+  "visitorid": 1407580,
+  "event": 3,
+  "itemid": 235061,
+  "transactionid": 17672
+ },
+ "events_dup_full": 460,
+ "event_counts": {
+  "view": 2664312,
+  "addtocart": 69332,
+  "transaction": 22457
+ },
+ "event_pct": {
+  "view": 96.6696,
+  "addtocart": 2.5156,
+  "transaction": 0.8148
+ },
+ "ts_min": 1430622004384,
+ "ts_max": 1442545187788,
+ "visitor0": 3,
+ "neg_ts": 0,
+ "neg_item": 0,
+ "trans_nonnull": 22457,
+ "trans_nunique": 17672,
+ "visitor_events_desc": {
+  "count": 1407580.0,
+  "mean": 1.9580421716705267,
+  "std": 12.580492491019244,
+  "min": 1.0,
+  "50%": 1.0,
+  "90%": 3.0,
+  "99%": 13.0,
+  "max": 7757.0
+ },
+ "visitor_single_event_share": 71.15,
+ "item_events_desc": {
+  "count": 235061.0,
+  "mean": 11.725045839165153,
+  "std": 37.032100844678496,
+  "min": 1.0,
+  "50%": 3.0,
+  "90%": 25.0,
+  "99%": 143.0,
+  "max": 3412.0
+ },
+ "item_top10": {
+  "187946": 3412,
+  "461686": 2978,
+  "5411": 2334,
+  "370653": 1854,
+  "219512": 1800,
+  "257040": 1647,
+  "298009": 1642,
+  "96924": 1633,
+  "309778": 1628,
+  "384302": 1608
+ },
+ "basket_desc": {
+  "count": 17672.0,
+  "mean": 1.270767315527388,
+  "std": 0.9747934691329692,
+  "min": 1.0,
+  "50%": 1.0,
+  "90%": 2.0,
+  "99%": 5.0,
+  "max": 31.0
+ },
+ "basket_multi_item_share": 15.33,
+ "cat_shape": [
+  1669,
+  2
+ ],
+ "cat_missing": {
+  "categoryid": 0,
+  "parentid": 25
+ },
+ "cat_nunique": {
+  "categoryid": 1669,
+  "parentid": 362
+ },
+ "cat_dup": 0,
+ "cat_roots": 25,
+ "cat_memory_KB": 26.8
+}
