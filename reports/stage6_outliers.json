@@ -1,0 +1,200 @@
+{
+ "events_per_visitor": {
+  "n": 1407580,
+  "median": 1.0,
+  "q1": 1.0,
+  "q3": 2.0,
+  "iqr_upper": 3.5,
+  "above_iqr_pct": 8.555,
+  "above_mean_plus_3sd_pct": 0.135,
+  "max": 7757.0
+ },
+ "events_per_item": {
+  "n": 235061,
+  "median": 3.0,
+  "q1": 1.0,
+  "q3": 9.0,
+  "iqr_upper": 21.0,
+  "above_iqr_pct": 11.828,
+  "above_mean_plus_3sd_pct": 1.292,
+  "max": 3412.0
+ },
+ "session_length": {
+  "n": 1761675,
+  "median": 1.0,
+  "q1": 1.0,
+  "q3": 1.0,
+  "iqr_upper": 1.0,
+  "above_iqr_pct": 21.728,
+  "above_mean_plus_3sd_pct": 0.885,
+  "max": 417.0
+ },
+ "basket_size": {
+  "n": 17672,
+  "median": 1.0,
+  "q1": 1.0,
+  "q3": 1.0,
+  "iqr_upper": 1.0,
+  "above_iqr_pct": 15.335,
+  "above_mean_plus_3sd_pct": 1.211,
+  "max": 31.0
+ },
+ "gap_min": {
+  "n": 1348521,
+  "median": 2.2734666666666667,
+  "q1": 0.6372166666666667,
+  "q3": 40.829816666666666,
+  "iqr_upper": 101.11871666666667,
+  "above_iqr_pct": 22.074,
+  "above_mean_plus_3sd_pct": 2.394,
+  "max": 196457.51696666668
+ },
+ "top_visitor_cases": [
+  {
+   "visitorid": 1150086,
+   "events": 7757,
+   "sessions": 211,
+   "items": 3814,
+   "span_days": 97.5,
+   "mix": {
+    "view": 83.52,
+    "addtocart": 9.27,
+    "transaction": 7.21
+   }
+  },
+  {
+   "visitorid": 530559,
+   "events": 4328,
+   "sessions": 269,
+   "items": 2209,
+   "span_days": 93.3,
+   "mix": {
+    "view": 83.71,
+    "addtocart": 9.68,
+    "transaction": 6.61
+   }
+  },
+  {
+   "visitorid": 152963,
+   "events": 3024,
+   "sessions": 138,
+   "items": 1622,
+   "span_days": 48.2,
+   "mix": {
+    "view": 76.19,
+    "addtocart": 12.27,
+    "transaction": 11.54
+   }
+  },
+  {
+   "visitorid": 895999,
+   "events": 2474,
+   "sessions": 414,
+   "items": 1641,
+   "span_days": 134.5,
+   "mix": {
+    "view": 95.72,
+    "addtocart": 2.26,
+    "transaction": 2.02
+   }
+  },
+  {
+   "visitorid": 163561,
+   "events": 2410,
+   "sessions": 54,
+   "items": 1314,
+   "span_days": 31.4,
+   "mix": {
+    "view": 91.04,
+    "addtocart": 5.15,
+    "transaction": 3.82
+   }
+  }
+ ],
+ "top_basket_cases": [
+  {
+   "transactionid": 7063.0,
+   "size": 31,
+   "distinct_items": 31,
+   "top_item_share": 0.03
+  },
+  {
+   "transactionid": 765.0,
+   "size": 28,
+   "distinct_items": 28,
+   "top_item_share": 0.04
+  },
+  {
+   "transactionid": 8351.0,
+   "size": 27,
+   "distinct_items": 14,
+   "top_item_share": 0.07
+  },
+  {
+   "transactionid": 2753.0,
+   "size": 23,
+   "distinct_items": 23,
+   "top_item_share": 0.04
+  },
+  {
+   "transactionid": 6993.0,
+   "size": 21,
+   "distinct_items": 21,
+   "top_item_share": 0.05
+  }
+ ],
+ "top_session_cases": [
+  {
+   "session_id": 388828,
+   "length": 417,
+   "visitor": 310759,
+   "outcome": "view_only",
+   "distinct_items": 389
+  },
+  {
+   "session_id": 1642956,
+   "length": 330,
+   "visitor": 1313381,
+   "outcome": "view_only",
+   "distinct_items": 157
+  },
+  {
+   "session_id": 649887,
+   "length": 320,
+   "visitor": 519839,
+   "outcome": "buy",
+   "distinct_items": 198
+  },
+  {
+   "session_id": 662589,
+   "length": 310,
+   "visitor": 530033,
+   "outcome": "buy",
+   "distinct_items": 206
+  },
+  {
+   "session_id": 100142,
+   "length": 275,
+   "visitor": 79627,
+   "outcome": "view_only",
+   "distinct_items": 255
+  }
+ ],
+ "prop790": {
+  "n": 35417,
+  "median": 46440.0,
+  "q1": 16320.0,
+  "q3": 126240.0,
+  "iqr_upper": 291120.0,
+  "above_iqr_pct": 10.328,
+  "above_mean_plus_3sd_pct": 1.056,
+  "max": 17176800.0
+ },
+ "prop790_top": [
+  17176800.0,
+  15618360.0,
+  12240000.0,
+  8549880.0,
+  8549880.0
+ ]
+}
