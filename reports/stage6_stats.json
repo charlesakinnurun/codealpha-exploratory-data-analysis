@@ -1,0 +1,56 @@
+{
+ "T1_availability_tx_rates": {
+  "p_in_pct": 1.36,
+  "p_out_pct": 0.1512,
+  "diff_pp": 1.209,
+  "ci95_pp": [
+   1.131,
+   1.287
+  ],
+  "lift": 8.99,
+  "z": 25.1,
+  "p_two_sided": 4.7032501822732875e-139
+ },
+ "T2_mwu_item_views": {
+  "n_conv": 12025,
+  "n_nonconv": 223036,
+  "median_conv": 38.0,
+  "median_nonconv": 3.0,
+  "U": 2465168421.5,
+  "z": 155.1,
+  "p_two_sided": 0.0,
+  "rank_biserial": -0.838
+ },
+ "T3_chi2_root_outcome": {
+  "chi2": 2256.0,
+  "dof": 10,
+  "p": 0.0,
+  "cramers_v": 0.029,
+  "table_shape": [
+   11,
+   2
+  ]
+ },
+ "T4_chi2_weekly_homogeneity": {
+  "chi2": 122.7,
+  "dof": 18,
+  "p": 1.321551529889767e-17,
+  "weeks": 19,
+  "tx_rate_range_per_1000": [
+   7.17,
+   9.66
+  ]
+ },
+ "wilson_cis": {
+  "event_tx_rate_wilson95_pct": [
+   0.8043,
+   0.8255
+  ],
+  "session_buy_rate_wilson95_pct": [
+   0.7984,
+   0.8249
+  ]
+ },
+ "bonferroni_alpha": 0.0125,
+ "note": "stdlib-only distributions; scipy DLL blocked in this sandbox (requirements unchanged)"
+}
