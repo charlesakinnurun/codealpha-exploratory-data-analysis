@@ -1,0 +1,41 @@
+{
+ "event_level": {
+  "view": 2664312,
+  "addtocart": 69332,
+  "transaction": 22457,
+  "cart_per_1000_views": 26.02,
+  "tx_per_1000_views": 8.43,
+  "tx_per_100_carts": 32.39
+ },
+ "session_level": {
+  "sessions": 1761675,
+  "sessions_with_view_pct": 99.67,
+  "sessions_with_cart_pct": 2.49,
+  "sessions_with_tx_pct": 0.81,
+  "outcome_mix": {
+   "view_only": 1715386,
+   "cart_no_buy": 31992,
+   "buy": 14297
+  },
+  "outcome_mix_pct": {
+   "view_only": 97.372,
+   "cart_no_buy": 1.816,
+   "buy": 0.812
+  },
+  "cart_sessions_converting_to_buy_pct": 27.17,
+  "events_in_buy_sessions_pct": 4.85
+ },
+ "visitor_level": {
+  "visitors": 1407580,
+  "outcome_mix": {
+   "view_only": 1368715,
+   "cart_no_buy": 27146,
+   "buy": 11719
+  },
+  "outcome_mix_pct": {
+   "view_only": 97.239,
+   "cart_no_buy": 1.929,
+   "buy": 0.833
+  }
+ }
+}
