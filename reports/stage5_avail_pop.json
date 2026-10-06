@@ -1,0 +1,47 @@
+{
+ "median_views": 3.0,
+ "conv_pct": {
+  "head|avail=0|addtocart": 0.479,
+  "head|avail=0|transaction": 0.17,
+  "head|avail=0|view": 99.351,
+  "head|avail=1|addtocart": 4.096,
+  "head|avail=1|transaction": 1.363,
+  "head|avail=1|view": 94.541,
+  "tail|avail=0|addtocart": 0.11,
+  "tail|avail=0|transaction": 0.014,
+  "tail|avail=0|view": 99.877,
+  "tail|avail=1|addtocart": 5.834,
+  "tail|avail=1|transaction": 1.231,
+  "tail|avail=1|view": 92.935
+ },
+ "counts": [
+  {
+   "pop_half": "head",
+   "asof_available": "0",
+   "addtocart": 263,
+   "transaction": 93,
+   "view": 54508
+  },
+  {
+   "pop_half": "head",
+   "asof_available": "1",
+   "addtocart": 3984,
+   "transaction": 1326,
+   "view": 91964
+  },
+  {
+   "pop_half": "tail",
+   "asof_available": "0",
+   "addtocart": 8,
+   "transaction": 1,
+   "view": 7279
+  },
+  {
+   "pop_half": "tail",
+   "asof_available": "1",
+   "addtocart": 128,
+   "transaction": 27,
+   "view": 2039
+  }
+ ]
+}
